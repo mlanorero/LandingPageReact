@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Nav from './components/Nav';
+import Jumbo from './components/Jumbo';
+import CardList from './components/Card';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Jumbo />
+    <CardList />
   </React.StrictMode>,
   document.getElementById('root')
 );
